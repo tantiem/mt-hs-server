@@ -1,0 +1,32 @@
+{
+  "name": "mt-highscores",
+  "version": "1.0.0",
+  "description": "Multi Tenant Highscore service software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tantiem/mt-hs-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "api",
+    "highscores",
+    "tenant"
+  ],
+  "author": "T",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/tantiem/mt-hs-server/issues"
+  },
+  "homepage": "https://github.com/tantiem/mt-hs-server#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongo": "^0.1.0",
+    "mongo-tenant": "^1.8.0",
+    "mongoose": "^8.5.2"
+  }
+}
