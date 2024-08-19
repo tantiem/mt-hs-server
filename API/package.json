@@ -25,6 +25,8 @@
   "homepage": "https://github.com/tantiem/mt-hs-server#readme",
   "dependencies": {
     "express": "^4.19.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.2",
     "mongo": "^0.1.0",
     "mongo-tenant": "^1.8.0",
     "mongoose": "^8.5.2"
